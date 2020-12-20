@@ -2,11 +2,12 @@
 
 ## Run
 ```bash
-$ mongod --config /usr/local/etc/mongod.conf
 $ mpiexec -n 4 python3 mpi.py
 ```
 
+## Mongodb - not needed
 ```
+$ mongod --config /usr/local/etc/mongod.conf # Not needed
 $ mongo
 $ use pyaudio
 $ db.nodes.find()
