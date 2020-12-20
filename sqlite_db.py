@@ -59,5 +59,5 @@ def init_worker_sqlite(conn, worker_number, worker_start_number, worker_end_numb
         input_node = node[1]
         output_node = node[2]
         owned_nodes[node_id]["output_connections"][output_node] = {}
-    print(owned_nodes, flush=True)
+    return owned_nodes
 
